@@ -2,9 +2,8 @@
 
 pipeline: **raw log ingestion - parsing - validation - processing - storage - reporting**
 
-Built to close a specific gap: proving hands-on experience with log/data
-parsing, batch processing, and idempotent data pipelines — on top of an
-existing Django/DRF/Celery/PostgreSQL background.
+I have an hands-on experience with log/data
+parsing, batch processing, and idempotent data pipelines, insert in db, then generate report.
 
 ## Architecture
 
@@ -44,16 +43,6 @@ uses `ON CONFLICT (record_hash) DO NOTHING`. Re-running the pipeline on
 the same file (e.g. after a crash, or a log shipper re-sending a batch)
 inserts zero duplicate rows.
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-
-# Requires a running Postgres. Update DB_URL in pipeline.py and in report.py
-# if your connection details differ from the default
-# db_url = dbuser/dbpassword@db:5432/logdatabase 
-
-```
 
 ## Run it
 
