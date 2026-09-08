@@ -1,6 +1,6 @@
 # Log Processing Pipeline
 
-A small but real end-to-end pipeline: **raw plain-text log file → validation → transformation → Postgres storage → CSV/Excel reports.**
+pipeline: **raw log ingestion - parsing - validation - processing - storage - reporting**
 
 Built to close a specific gap: proving hands-on experience with log/data
 parsing, batch processing, and idempotent data pipelines — on top of an
@@ -73,15 +73,3 @@ docker compose exec app python report.py
 # 4. Run the test suite
 docker compose exec app python -m pytest tests/ -v
 ```
-
-## Files
-
-| File | Responsibility |
-
-| `generate_sample_log.py` | Creates a log file with 5000 row with injected bad/duplicate rows |
-| `parser.py` | Regex: raw line → structured dict, or raises on bad format |
-| `validator.py` | Pydantic: for data validation |
-| `pipeline.py` | Orchestrator: streaming, dedup, batching, load data to Postgres |
-| `report.py` | Reads Postgres, produces CSV + Excel summary reports via pandas |
-| `tests/` | unit tests for parser and validator |
-
