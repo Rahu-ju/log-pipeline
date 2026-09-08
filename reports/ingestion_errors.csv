@@ -1,0 +1,229 @@
+id,line_number,raw_line,reason,logged_at
+1,28,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+2,75,,blank line,2026-09-08 07:03:48.015747+00:00
+3,92,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+4,117,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.015747+00:00
+5,130,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+6,143,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.015747+00:00
+7,179,,blank line,2026-09-08 07:03:48.015747+00:00
+8,237,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+9,241,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+10,306,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.015747+00:00
+11,322,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+12,329,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+13,331,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+14,375,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+15,376,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+16,382,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+17,411,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+18,418,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+19,447,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+20,494,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+21,496,,blank line,2026-09-08 07:03:48.015747+00:00
+22,518,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:48.015747+00:00
+23,519,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.015747+00:00
+24,580,,blank line,2026-09-08 07:03:48.282807+00:00
+25,605,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.282807+00:00
+26,633,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.282807+00:00
+27,656,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.282807+00:00
+28,658,,blank line,2026-09-08 07:03:48.282807+00:00
+29,715,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.282807+00:00
+30,778,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.282807+00:00
+31,920,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:48.282807+00:00
+32,948,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.282807+00:00
+33,950,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:48.282807+00:00
+34,952,,blank line,2026-09-08 07:03:48.282807+00:00
+35,1028,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.282807+00:00
+36,1032,,blank line,2026-09-08 07:03:48.282807+00:00
+37,1045,,blank line,2026-09-08 07:03:48.473430+00:00
+38,1125,,blank line,2026-09-08 07:03:48.473430+00:00
+39,1149,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+40,1258,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+41,1297,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.473430+00:00
+42,1359,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+88,2689,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+89,2692,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+43,1395,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.473430+00:00
+44,1404,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+45,1416,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+46,1426,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+47,1451,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:48.473430+00:00
+48,1496,,blank line,2026-09-08 07:03:48.473430+00:00
+49,1498,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.473430+00:00
+50,1553,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.473430+00:00
+51,1645,,blank line,2026-09-08 07:03:48.721295+00:00
+52,1649,,blank line,2026-09-08 07:03:48.721295+00:00
+53,1664,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+54,1668,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+55,1715,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+56,1729,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+57,1775,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.721295+00:00
+58,1805,,blank line,2026-09-08 07:03:48.721295+00:00
+59,1830,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+60,1917,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+61,1965,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+62,1977,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:48.721295+00:00
+63,1992,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.721295+00:00
+64,2002,,blank line,2026-09-08 07:03:48.721295+00:00
+65,2056,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:48.721295+00:00
+66,2057,,blank line,2026-09-08 07:03:48.721295+00:00
+67,2068,,blank line,2026-09-08 07:03:48.721295+00:00
+68,2084,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+69,2134,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+70,2185,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+71,2211,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+72,2224,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+73,2237,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+74,2240,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.023103+00:00
+75,2285,,blank line,2026-09-08 07:03:49.023103+00:00
+76,2331,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+77,2339,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+78,2364,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+79,2403,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+80,2453,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+81,2454,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+82,2519,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.023103+00:00
+83,2527,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.023103+00:00
+84,2545,,blank line,2026-09-08 07:03:49.023103+00:00
+85,2626,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+86,2643,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+87,2677,,blank line,2026-09-08 07:03:49.424525+00:00
+90,2788,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+91,2791,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+92,2825,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+93,2838,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+94,2883,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.424525+00:00
+95,3014,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+96,3017,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.424525+00:00
+97,3025,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.424525+00:00
+98,3062,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+99,3090,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.424525+00:00
+100,3109,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.424525+00:00
+101,3135,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.770136+00:00
+102,3160,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+103,3197,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+104,3208,,blank line,2026-09-08 07:03:49.770136+00:00
+105,3237,,blank line,2026-09-08 07:03:49.770136+00:00
+106,3253,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+107,3289,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+108,3345,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+109,3386,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+110,3451,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:49.770136+00:00
+111,3468,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+112,3479,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+113,3490,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+114,3649,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+115,3653,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:49.770136+00:00
+116,3703,,blank line,2026-09-08 07:03:50.092859+00:00
+117,3740,,blank line,2026-09-08 07:03:50.092859+00:00
+118,3745,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+119,3830,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+120,3962,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+121,3980,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+122,4007,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+123,4053,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+124,4061,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:50.092859+00:00
+125,4063,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+126,4070,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+127,4085,,blank line,2026-09-08 07:03:50.092859+00:00
+128,4092,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+129,4094,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+130,4115,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+131,4122,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+132,4133,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.092859+00:00
+133,4281,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.405946+00:00
+134,4424,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.405946+00:00
+135,4497,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.405946+00:00
+136,4512,,blank line,2026-09-08 07:03:50.405946+00:00
+137,4528,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:50.405946+00:00
+138,4529,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:50.405946+00:00
+139,4591,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.405946+00:00
+140,4670,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.405946+00:00
+141,4760,,blank line,2026-09-08 07:03:50.719739+00:00
+142,4766,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+143,4783,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+144,4826,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:50.719739+00:00
+145,4943,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+146,5072,this is not a log line at all,line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+147,5131,"192.168.1.1 - - [10/Jan/2024:00:00:00 -0000] ""WEIRDMETHODONLY"" 200 100",line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+148,5165,"999.999.999.999 - - [10/Jan/2024:00:00:00 -0000] ""GET /x HTTP/1.1"" abc 456",line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+149,5181,"10.0.0.5 - - [10/Jan/2024:00:00:00 -0000] ""GET /missing-status HTTP/1.1""",line does not match expected log format,2026-09-08 07:03:50.719739+00:00
+150,5213,"127.0.0.1 - - [BADTIMESTAMP] ""GET /x HTTP/1.1"" 200 123","1 validation error for LogRecord
+timestamp
+  Value error, unparseable timestamp 'BADTIMESTAMP': time data 'BADTIMESTAMP' does not match format '%d/%b/%Y:%H:%M:%S %z' [type=value_error, input_value='BADTIMESTAMP', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error",2026-09-08 07:03:50.719739+00:00

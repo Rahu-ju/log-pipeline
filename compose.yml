@@ -1,0 +1,23 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8089:8089"
+    container_name: mydev
+    volumes:
+      - .:/app
+    command: tail -f /dev/null
+
+
+  db:
+    image: postgres:16
+    container_name: mydb
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:  
+      POSTGRES_USER: dbuser
+      POSTGRES_PASSWORD: dbpassword
+      POSTGRES_DB: logdatabase 
+    
